@@ -58,7 +58,7 @@ body {
     pad: 2rem 0rem;
 }
 
-.section h2 {
+.section h1 {
     text-align: center;
 }
 
@@ -77,4 +77,57 @@ body {
     padding-left: 1rem;
     padding-left: 1rem;
     max-width: 600px;
+}
+
+/* lists style*/
+.unordered {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* links style */
+.primary-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.para {
+    text-align: center;
 }
