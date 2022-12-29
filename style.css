@@ -41,6 +41,11 @@ body {
     font-weight: bold;
 }
 
+.navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+  }
+
 /* header */
 .hero {
     color: var(--dark-gray);
@@ -51,6 +56,10 @@ body {
     max-width: 350px;
     margin: auto;
     display: block;
+}
+
+.heading-inverted {
+    color: var(--primary);
 }
 
 /* section */
@@ -76,7 +85,7 @@ body {
     margin: auto;
     padding-left: 1rem;
     padding-left: 1rem;
-    max-width: 600px;
+    max-width: 900px;
 }
 
 /* lists style*/
