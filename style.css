@@ -48,23 +48,32 @@ body {
 
 /* header */
 .hero {
+    padding: 2rem;
+    padding-top: 5rem;
     color: var(--dark-gray);
     display: block;
 }
 
-.hero img {
-    max-width: 350px;
+.hero .hero-img {
+    max-width: 80%;
+    width: 550px;
     margin: auto;
     display: block;
 }
 
-.heading-inverted {
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
     color: var(--primary);
 }
 
 /* section */
 .section {
-    pad: 2rem 0rem;
+    padding: 2rem 0rem;
 }
 
 .section h1 {
@@ -75,17 +84,22 @@ body {
     background-color: var(--gray);
 }
 
-/* containers */
+/* containers
 .conatiner-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
+} */
+
+.container-center {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
 }
 
 .container {
-    margin: auto;
-    padding-left: 1rem;
-    padding-left: 1rem;
-    max-width: 900px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 10px;
 }
 
 /* lists style*/
@@ -121,6 +135,7 @@ body {
 
 /* footer */
 .footer {
+    margin-top: 30px;
     background-color: var(--primary);
     color: white;
     padding: 2rem 0rem;
