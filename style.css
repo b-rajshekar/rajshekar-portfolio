@@ -84,12 +84,6 @@ body {
     background-color: var(--gray);
 }
 
-/* containers
-.conatiner-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
-} */
-
 .container-center {
     max-width: 900px;
     width: 100%;
