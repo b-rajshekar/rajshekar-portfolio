@@ -18,10 +18,6 @@ body {
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .brand {
-    font-weight: bold;
-}
-
 .navigation ul {
     list-style: none;
     text-align: right;
@@ -108,11 +104,9 @@ body {
 
 /* links style */
 .link {
-    margin: auto;
-    display: block;
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.6rem 1.2rem;
+    padding: 0.5rem 1rem;
 }
 
 .primary-link {
