@@ -100,6 +100,8 @@ div {
 
 .ow {
     background-color: var(--gray);
+    border-radius: 2rem;
+    margin: 25px;
 }
 
 .container-center {
@@ -132,17 +134,20 @@ div {
 }
 
 .primary-link {
+    background-color: var(--primary);
+    border-radius: 2rem;
+    display: block;
+    text-align: center;
+    color: #fff;
     max-width: 140px;
     padding: 0.6rem 1.2rem;
-    background-color: var(--primary);
-    color: #fff;
     margin: 1rem auto;
-    border-radius: 2rem;
 }
 
 .secondary-link {
     max-width: 140px;
     padding: 0.6rem 1.2rem;
+    display: block;
     margin: 1rem auto;
     border-radius: 2rem;
     border: 1px solid var(--primary);
