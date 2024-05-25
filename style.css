@@ -126,6 +126,15 @@ div {
     padding: 0rem 0.5rem;
 }
 
+.list-item-inline {
+    display:inline;
+    margin-left:auto;
+    color:black;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
 /* links style */
 .link {
     box-sizing: border-box;
@@ -181,3 +190,25 @@ div {
 .para {
     text-align: center;
 }
+
+/* Media Queries */
+  
+  /* Media query for mobile devices (adjust breakpoint as needed) */
+  @media (max-width: 768px) {
+    .navigation {
+      flex-direction: column; /* Stack items vertically on mobile */
+      align-items: center; /* Center items horizontally on mobile */
+    }
+  
+    .nav-pills {
+      /* Remove unnecessary margin for mobile layout */
+      margin: 0; /* Adjust as needed */
+      padding: 0; /* Adjust as needed */
+    }
+  
+    .nav-pills li {
+      margin-right: 0; /* Remove horizontal margin on mobile */
+      margin-bottom: 1rem; /* Add vertical margin for spacing */
+    }
+  }
+  
